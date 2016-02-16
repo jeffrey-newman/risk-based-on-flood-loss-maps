@@ -33,7 +33,7 @@ int main(int argc, char **argv)
     int ari_map4(0);
    //Outputs
     std::string risk_raster_file("out-risk-raster.tif");
-    std::string out_list_file("loss-by-class-list.txt");
+    std::string out_list_file("net-risk.txt");
     
     namespace prog_opt = boost::program_options;
     prog_opt::options_description desc("Allowed options");
